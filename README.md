@@ -29,7 +29,7 @@
 ## 使用
 查询当前可供安装的`stable`状态的go版本
 
-![main](screenshot/main.jpg "main")
+![main](screenshot/main.JPG "main")
 ![ls](screenshot/ls.jpg "ls-remote")
 ![help](screenshot/help.png "help")
 
