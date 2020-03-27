@@ -29,8 +29,12 @@
 ## 使用
 查询当前可供安装的`stable`状态的go版本
 
+![main](screenshot/main.jpg" "main")
+![ls](screenshot/ls.jpg" "ls-remote")
+![help](screenshot/help.png" "help")
+
 ```shell
-$ g ls-remote stable
+$ govm ls-remote stable
 1.11.9
 1.12.4
 ```
@@ -38,7 +42,7 @@ $ g ls-remote stable
 安装目标go版本`1.12.4`
 
 ```shell
-$ g install 1.12.4
+$ govm install 1.12.4
 installed successfully
 $ go version
 go version go1.12.4 darwin/amd64
@@ -48,14 +52,14 @@ go version go1.12.4 darwin/amd64
 查询已安装的go版本
 
 ```shell
-$ g ls
+$ govm ls
 1.12.4
 ```
 
 查询可供安装的所有go版本
 
 ```shell
-$ g ls-remote
+$ govm ls-remote
 1
 1.2.2
 1.3
@@ -74,7 +78,7 @@ $ g ls-remote
 安装目标go版本`1.11.9`
 
 ```shell
-$ g install 1.11.9
+$ govm install 1.11.9
 installed successfully
 $ go version
 go version go1.11.9 darwin/amd64
@@ -83,10 +87,10 @@ go version go1.11.9 darwin/amd64
 切换到另一个已安装的go版本
 
 ```shell
-$ g ls
+$ govm ls
 1.11.9
 1.12.4
-$ g use 1.12.4
+$ govm use 1.12.4
 go version go1.12.4 darwin/amd64
 
 ```
@@ -94,7 +98,7 @@ go version go1.12.4 darwin/amd64
 卸载一个已安装的go版本
 
 ```shell
-g uninstall 1.11.9
+govm uninstall 1.11.9
 Uninstall successfully
 ```
 
