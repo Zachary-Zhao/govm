@@ -2,6 +2,9 @@
 
 `govm`是一个Linux、macOS、Windows下的命令行工具，可以提供一个便捷的多版本[go](https://golang.org/)环境的管理和切换。
 
+![main](screenshot/main.JPG "main")
+![ls](screenshot/ls.jpg "ls-remote")
+![help](screenshot/help.png "help")
 
 ## 特性
 - 支持列出可供安装的go版本号
@@ -28,10 +31,6 @@
 
 ## 使用
 查询当前可供安装的`stable`状态的go版本
-
-![main](screenshot/main.JPG "main")
-![ls](screenshot/ls.jpg "ls-remote")
-![help](screenshot/help.png "help")
 
 ```shell
 $ govm ls-remote stable
